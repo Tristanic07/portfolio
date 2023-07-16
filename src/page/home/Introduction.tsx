@@ -2,7 +2,7 @@ import avatar from "../../assets/image/avatar.png";
 
 export default function Introduction() {
   return (
-    <div className=" py-10 px-20 md:py-20 border-t-2">
+    <div className=" py-10 px-10 md:px-20 md:py-20 border-t-2">
       <h1 className="font-tektur  text-4xl h-14 font-semibold text-center text-gray-800 md:text-5xl md:font-bold md:hidden ">
         ABOUT ME
       </h1>
