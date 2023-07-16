@@ -2,11 +2,11 @@ import Footer from "./component/Footer";
 import Navbar from "./component/Navbar";
 import About from "./page/about/About";
 import Home from "./page/home/Home";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -14,6 +14,6 @@ export default function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
