@@ -21,7 +21,8 @@ export default {
         wave: "wave 2s infinite",
       },
       fontFamily: {
-        body: ['Lobster']
+        body: ['Lobster'],
+        tektur: ['Tektur']
       }
     },
   },
