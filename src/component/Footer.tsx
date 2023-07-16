@@ -6,7 +6,7 @@ export default function Footer() {
       <h1 className="  font-tektur  items-center text-white gap-1 hover:text-yellow-300 duration-1000">
         Designed and Developed by Alain Lado
       </h1>
-      <h1 className="  font-tektur  items-center gap-1 text-white hover:text-yellow-300 duration-1000">
+      <h1 className="  font-tektur  items-center gap-1  text-white hover:text-yellow-300 duration-1000">
         Alrights Reserved © 2023 ATL
       </h1>
       <section className="flex gap-4 text-white text-xl">

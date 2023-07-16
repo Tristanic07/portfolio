@@ -38,6 +38,7 @@ export default function Home() {
         <div className="flex justify-center">
           <img
             src={coder1}
+            alt="coder1"
             className=" w-72 h-72 hover:animate-pulse md:mr-10  md:w-96 md:h-96 duration-1000"
           />
         </div>

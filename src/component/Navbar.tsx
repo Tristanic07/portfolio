@@ -59,18 +59,16 @@ export default function Navbar() {
             logo: FaUser,
           },
 
-          { text: "Project", url: "#", logo: FaHome },
-          { text: "Contact", url: "#", logo: FaHome },
+          { text: "Project", url: "/Project", logo: FaHome },
+          { text: "Contact", url: "/Contact", logo: FaHome },
         ].map((item, index) => (
-          <>
-            <li
-              key={index}
-              className=" font-semibold font-tektur flex items-center gap-1 text-lg hover:text-xl w-28 hover:text-yellow-300 duration-1000"
-            >
-              <item.logo />
-              <a href={item.url}>{item.text}</a>
-            </li>
-          </>
+          <li
+            key={`k${index}`}
+            className=" font-semibold font-tektur flex items-center gap-1 text-lg hover:text-xl w-28 hover:text-yellow-300 duration-1000"
+          >
+            <item.logo />
+            <a href={item.url}>{item.text}</a>
+          </li>
         ))}
       </ul>
     </nav>
