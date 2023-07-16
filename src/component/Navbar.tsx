@@ -59,7 +59,7 @@ export default function Navbar() {
             logo: FaUser,
           },
 
-          { text: "About", url: "/About", logo: FaHome },
+          { text: "About", url: "/about", logo: FaHome },
           { text: "Contact", url: "/Contact", logo: FaHome },
         ].map((item, index) => (
           <li
