@@ -1,6 +1,6 @@
 import { FaJava, FaReact, FaPhp, FaJs, FaPython } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
-import alain from "../assets/image/alain1.jpg";
+import alain from "../../assets/image/alain1.jpg";
 
 export default function About() {
   return (
