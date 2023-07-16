@@ -10,17 +10,20 @@ export default function Footer() {
         Alrights Reserved © 2023 ATL
       </h1>
       <section className="flex gap-4 text-white text-xl">
-        <a href="">
-          <FaGithub />
+        <a href="https://github.com/Tristanic07" target="_blank">
+          <FaGithub className="hover:text-yellow-700 duration-1000" />
         </a>
-        <a href="">
-          <FaFacebook />
+        <a href="https://www.facebook.com/shirlulu7/" target="_blank">
+          <FaFacebook className="hover:text-yellow-700 duration-1000" />
         </a>
-        <a href="">
-          <FaLinkedin />
+        <a
+          href="https://www.linkedin.com/in/alain-lado-43660a283/"
+          target="_blank"
+        >
+          <FaLinkedin className="hover:text-yellow-700 duration-1000" />
         </a>
-        <a href="">
-          <FaInstagram />
+        <a href="https://www.instagram.com/shirlulu7/" target="_blank">
+          <FaInstagram className="hover:text-yellow-700 duration-1000" />
         </a>
       </section>
     </div>

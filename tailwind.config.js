@@ -23,6 +23,12 @@ export default {
       fontFamily: {
         body: ['Lobster'],
         tektur: ['Tektur']
+      },
+      width: {
+        '128': '54rem',
+      },
+      height: {
+        '132': '64rem',
       }
     },
   },
