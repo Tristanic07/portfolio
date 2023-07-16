@@ -26,7 +26,7 @@ export default function Navbar() {
     };
   }, []);
   return (
-    <nav className="fixed items-center bg-gray-400 glass px-20 py-5 md:flex md:justify-between w-full z-20">
+    <nav className="fixed items-center bg-gray-400 glass px-10 md:px-20 py-5 md:flex md:justify-between w-full z-20">
       <div className="flex justify-between">
         <h1 className="text-4xl font-bold font-body text-white  hover:text-5xl  hover:text-yellow-300 duration-1000">
           {" "}

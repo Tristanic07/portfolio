@@ -5,7 +5,7 @@ import Introduction from "./Introduction";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col gap-14 px-20 py-32 md:py-40 md:flex-row md:justify-between">
+      <div className="flex flex-col gap-14 px-10 md:px-20 py-32 md:py-40 md:flex-row md:justify-between">
         <div className="md:w-1/2 pl-0">
           <h1 className="text-lg font-tektur  text-gray-700 animate-pulse md:mt-20 ">
             Alain Tristan Lado
