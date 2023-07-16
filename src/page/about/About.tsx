@@ -9,7 +9,7 @@ export default function About() {
         <img src={alain} className="w-72" />
       </div>
       <h1 className="text-center font-tektur font-bold text-4xl">Skills</h1>
-      <section className="grid grid-rows-3 grid-cols-2 md:h-96   md:grid-rows-2 md:grid-cols-3  gap-5 ">
+      <section className="grid grid-rows-3 grid-cols-2 h-[27rem] md:h-96   md:grid-rows-2 md:grid-cols-3  gap-5 ">
         {[FaJava, FaReact, FaPhp, FaJs, FaPython, SiMysql].map(
           (Skill, index) => (
             <div
