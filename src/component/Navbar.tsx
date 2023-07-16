@@ -55,11 +55,11 @@ export default function Navbar() {
           { text: "Home", url: "/", logo: FaHome },
           {
             text: "About",
-            url: "/About",
+            url: "/Project",
             logo: FaUser,
           },
 
-          { text: "Project", url: "/Project", logo: FaHome },
+          { text: "About", url: "/About", logo: FaHome },
           { text: "Contact", url: "/Contact", logo: FaHome },
         ].map((item, index) => (
           <li
