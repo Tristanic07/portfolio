@@ -44,8 +44,8 @@ export default function Contact() {
       );
   };
   return (
-    <div className="flex justify-center items-center h-132 sm:h-screen">
-      <div className="flex flex-col rounded-md bg-gray-400 mt-28 w-10/12 items-center gap-5 sm:flex-row sm:justify-center sm:items-start py-10 sm:w-128">
+    <div className="flex justify-center items-center h-132 md:h-screen">
+      <div className="flex flex-col rounded-md bg-gray-400 mt-28 w-10/12 items-center gap-5 md:flex-row md:justify-center md:items-start py-10 md:w-128">
         <div className="flex flex-col gap-5 w-96 ">
           <h1 className="text-5xl font-tektur text-white ">Get in Touch</h1>
           <p className="text-lg font-tektur text-white">
@@ -71,8 +71,8 @@ export default function Contact() {
             </a>
           </section>
         </div>
-        <hr className="bg-white sm:w-px sm:h-96  " />
-        <hr className="bg-white w-2/3 h-px sm:hidden" />
+        <hr className="bg-white md:w-px md:h-96  " />
+        <hr className="bg-white w-2/3 h-px md:hidden" />
         <form
           ref={form}
           onSubmit={sendEmail}
