@@ -46,7 +46,7 @@ export default function Contact() {
   return (
     <div className="flex justify-center items-center h-132 md:h-screen">
       <div className="flex flex-col rounded-md bg-gray-400 mt-28 w-10/12 items-center gap-5 md:flex-row md:justify-center md:items-start py-10 md:w-128">
-        <div className="flex flex-col gap-5 w-80 md:w-96 ">
+        <div className="flex flex-col gap-5  w-4/5 md:w-96 ">
           <h1 className="text-5xl font-tektur text-white ">Get in Touch</h1>
           <p className="text-lg font-tektur text-white">
             Whether you want to get in touch, talk about a project
@@ -76,7 +76,7 @@ export default function Contact() {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className=" w-80 md:w-96 flex flex-col gap-4 text-white"
+          className=" w-4/5 md:w-96 flex flex-col gap-4 text-white"
         >
           <h1 className="text-4xl font-tektur">Send a Message</h1>
 
