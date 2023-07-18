@@ -5,12 +5,12 @@ import Introduction from "./Introduction";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-col gap-14 px-10 md:px-20 py-32 md:py-40 md:flex-row md:justify-between">
+      <div className="flex flex-col gap-14 px-10 sm:px-20 py-32 sm:py-40 sm:flex-row sm:justify-between">
         <div className="md:w-1/2 pl-0">
-          <h1 className="text-lg font-tektur  text-gray-700 animate-pulse md:mt-20 ">
+          <h1 className="text-lg font-tektur  text-gray-700 animate-pulse sm:mt-20 ">
             Alain Tristan Lado
           </h1>
-          <h1 className="font-tektur text-3xl h-14 font-bold text-gray-800 md:text-5xl md:mb-5">
+          <h1 className="font-tektur text-3xl h-14 font-bold text-gray-800 sm:text-5xl sm:mb-5">
             <Typewriter
               options={{
                 strings: ["Interactive Frontend <br> Web Developer"],
@@ -39,7 +39,7 @@ export default function Home() {
           <img
             src={coder1}
             alt="coder1"
-            className=" w-72 h-72 hover:animate-pulse md:mr-10  md:w-96 md:h-96 duration-1000"
+            className=" w-72 h-72 hover:animate-pulse sm:mr-10  sm:w-96 sm:h-96 duration-1000"
           />
         </div>
       </div>

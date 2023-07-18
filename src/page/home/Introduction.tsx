@@ -2,18 +2,18 @@ import avatar from "../../assets/image/avatar.png";
 
 export default function Introduction() {
   return (
-    <div className=" py-10 px-10 md:px-20 md:py-20 border-t-2">
-      <h1 className="font-tektur  text-4xl h-14 font-semibold text-center text-gray-800 md:text-5xl md:font-bold md:hidden ">
+    <div className=" py-10 px-10 sm:px-20 sm:py-20 border-t-2">
+      <h1 className="font-tektur  text-4xl h-14 font-semibold text-center text-gray-800 sm:text-5xl sm:font-bold sm:hidden ">
         ABOUT ME
       </h1>
-      <div className="flex flex-col items-center gap-5 py-5 md:flex-row md:justify-center md:gap-28">
+      <div className="flex flex-col items-center gap-5 py-5 sm:flex-row sm:justify-center sm:gap-28">
         <img
           src={avatar}
           alt="avatar"
-          className="h-96 rounded-3xl  md:w-72 md:h-auto duration-500 hover:animate-wave"
+          className="h-96 rounded-3xl  sm:w-72 sm:h-auto duration-500 hover:animate-wave"
         />
-        <section className="md:w-1/2">
-          <h1 className="font-tektur  h-14 font-semibold text-center text-gray-800 md:show md:text-5xl md:font-bold md:block  hidden ">
+        <section className="sm:w-1/2">
+          <h1 className="font-tektur  h-14 font-semibold text-center text-gray-800 sm:show sm:text-5xl sm:font-bold sm:block  hidden ">
             ABOUT ME
           </h1>
           <p className="text-gray-600 font-tektur ">

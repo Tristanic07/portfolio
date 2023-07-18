@@ -5,8 +5,8 @@ import alain from "../../assets/image/alain1.jpg";
 export default function About() {
   return (
     <div className="flex flex-col items-center gap-7 px-10 py-32 ">
-      <div className="flex items-center flex-col-reverse md:h-96 md:flex-row md:justify-center gap-14 md:gap-28 py-10">
-        <section className="md:w-1/3">
+      <div className="flex items-center flex-col-reverse sm:h-96 sm:flex-row sm:justify-center gap-14 sm:gap-28 py-10">
+        <section className="sm:w-1/3">
           <p className="text-gray-600 font-tektur ">
             <span className="ml-7"></span>Hi, I'm{" "}
             <b className=" text-yellow-600">Alain Tristan G. Lado</b>, a recent
@@ -36,14 +36,14 @@ export default function About() {
         />
       </div>
       <h1 className="text-center font-tektur font-bold text-4xl">Skills</h1>
-      <section className="grid grid-rows-3 grid-cols-2 h-[27rem] md:h-96   md:grid-rows-2 md:grid-cols-3  gap-5 ">
+      <section className="grid grid-rows-3 grid-cols-2 h-[27rem] sm:h-96   sm:grid-rows-2 sm:grid-cols-3  gap-5 ">
         {[FaJava, FaReact, FaPhp, FaJs, FaPython, SiMysql].map(
           (Skill, index) => (
             <div
               key={index}
               className="flex items-center justify-center w-48 h-32 border-2 rounded-xl shadow-md shadow-yellow-400 hover:shadow-2xl hover:shadow-yellow-500 hover:h-36 hover:w-52 duration-1000"
             >
-              <Skill className="h-16 w-16 d:h-24 md:w-24 text-gray " />
+              <Skill className="h-16 w-16 d:h-24 sm:w-24 text-gray " />
             </div>
           )
         )}
